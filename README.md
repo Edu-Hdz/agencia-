@@ -14,7 +14,7 @@ Integrantes:
 - Pantoja Galmiche Angel David
 - Ruiz Cruz José Armando
 
-Aplicación en línea: https://cotizador-viajes.onrender.com
+Aplicación en línea: https://cotizador-viajes-ugqr.onrender.com
 
 ---
 
