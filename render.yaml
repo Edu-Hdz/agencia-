@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cotizador-viajes
+    runtime: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client
+    startCommand: node server/index.js
+    healthCheckPath: /api/catalogo
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
